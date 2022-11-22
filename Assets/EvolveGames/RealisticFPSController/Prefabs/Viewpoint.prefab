@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9b36da09aaa8f4483617bfc259b791, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PointText: Your text here...
+  PointText: Viridis - Luna
   cam: {fileID: 0}
   PlayerController: {fileID: 0}
   ImagePrefab: {fileID: 5311345518241477974, guid: 3c4727ed1d6b2b344be986ebefa94a43,
