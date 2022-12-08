@@ -12,9 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu2.unity
     guid: 56586bcbe8bc21241a84e588ed1527c2
   - enabled: 1
+    path: Assets/Scenes/MainMenu3.unity
+    guid: 7dcf721f91c302049a4a49f69eabfb32
+  - enabled: 1
     path: Assets/Scenes/Moons.unity
     guid: 8132143ba54cd4148a30c635e3951a24
   - enabled: 1
     path: Assets/Scenes/2ndMoon.unity
     guid: 906a01af6c047b84585c816fb4885058
+  - enabled: 1
+    path: Assets/Scenes/Moon3.unity
+    guid: 6c1c6c8a51a3ee44aba5abe88f6edd25
   m_configObjects: {}

@@ -9759,6 +9759,7 @@ GameObject:
   - component: {fileID: 1020876005}
   - component: {fileID: 1020876004}
   - component: {fileID: 1020876003}
+  - component: {fileID: 1020876007}
   m_Layer: 0
   m_Name: TeleporterExit (1)
   m_TagString: Untagged
@@ -9774,7 +9775,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1020876002}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -9845,6 +9846,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 125.661, z: 0}
+--- !u!114 &1020876007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020876002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22425a19791f9d84a8f7741d531a71b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelIndex: 4
 --- !u!1001 &1024310976
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18604,7 +18618,7 @@ Transform:
   - {fileID: 1946713770}
   - {fileID: 55709740}
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &2123810701
 MeshCollider:

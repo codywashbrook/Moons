@@ -7,7 +7,12 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("Moons");
+        SceneManager.LoadScene("MainMenu3");
 
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }
